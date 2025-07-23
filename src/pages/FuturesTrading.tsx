@@ -379,7 +379,7 @@ export default function FuturesTrading() {
             </div>
 
             {/* Special Coupon Offer */}
-            <div className="lg:w-1/2">
+            {/* <div className="lg:w-1/2">
               <div className="bg-gradient-to-r from-primary-dark to-primary rounded-lg overflow-hidden shadow-xl border border-gray-800 h-full flex flex-col">
                 <div className="p-8 flex-grow">
                   <div className="flex items-center mb-4">
@@ -403,7 +403,7 @@ export default function FuturesTrading() {
                         </div>
                       </div>
                       <button 
-                        className="btn btn-sm btn-outline"
+                        className="btn btn-sm btn-outline whitespace-nowrap"
                         onClick={() => {
                           navigator.clipboard.writeText('WE1DG17TC3Q2U');
                           alert('Coupon code copied to clipboard!');
@@ -422,6 +422,70 @@ export default function FuturesTrading() {
                     <div className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />
                       <span className="text-gray-300">Just $149.50 for a full year access</span>
+                    </div>
+                    <div className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />
+                      <span className="text-gray-300">All course benefits included</span>
+                    </div>
+                  </div>
+                  
+                  <a 
+                    href="https://whop.com/futures-trading-wl/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="btn btn-primary"
+                  >
+                    Claim This Offer
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </a>
+                </div>
+              </div>
+            </div> */}
+
+            {/* Additional pricing plans can be added here if needed */}
+              <div className="lg:w-1/2">
+              <div className="bg-gradient-to-r from-primary-dark to-primary rounded-lg overflow-hidden shadow-xl border border-gray-800 h-full flex flex-col">
+                <div className="p-8 flex-grow">
+                  <div className="flex items-center mb-4">
+                    <span className="bg-gradient-start text-white text-xs font-bold px-3 py-1 rounded-full mr-3 whitespace-nowrap">
+                      LIMITED TIME
+                    </span>
+                    <span className="text-gray-300 text-sm">Until August 30th, 2025</span>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-3 text-white">85% OFF Special Offer</h3>
+                  <p className="text-gray-300 mb-6">
+                    Use our exclusive coupon code during checkout to get an incredible 50% discount on your annual subscription.
+                  </p>
+                  
+                  <div className="bg-primary/50 border border-gray-700 rounded-lg p-4 mb-6 backdrop-blur-sm">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between">
+                      <div className="mb-3 md:mb-0">
+                        <span className="text-xs uppercase text-gray-400">Coupon Code:</span>
+                        <div className="font-mono text-xl font-bold text-white tracking-wider">
+                          BULLRUN
+                        </div>
+                      </div>
+                      <button 
+                        className="btn btn-sm btn-outline"
+                        onClick={() => {
+                          navigator.clipboard.writeText('WE1DG17TC3Q2U');
+                          alert('Coupon code copied to clipboard!');
+                        }}
+                      >
+                        Copy Code
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />
+                      <span className="text-gray-300">Save $254.00 on your subscription</span>
+                    </div>
+                    <div className="flex items-start">
+                      <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />
+                      <span className="text-gray-300">Just $44.98 for a full year access</span>
                     </div>
                     <div className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />

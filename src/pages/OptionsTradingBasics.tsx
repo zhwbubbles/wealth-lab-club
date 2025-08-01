@@ -35,9 +35,9 @@ export default function OptionsTradingBasics() {
               </div>
               
               <div className="flex flex-wrap gap-4">
-                <span className="bg-gradient-to-r from-gradient-start to-gradient-end text-white rounded-md py-3 px-6 text-center inline-flex items-center justify-center disabled:opacity-50 transition-all hover:opacity-90 text-base font-medium opacity-50 cursor-not-allowed">
-                  Coming Soon
-                </span>
+                <a href="https://whop.com/options-trading-for-beginners/" target='_blank'  className="bg-gradient-to-r from-gradient-start to-gradient-end text-white rounded-md py-3 px-6 text-center inline-flex items-center justify-center transition-all hover:opacity-90 text-base font-medium cursor-pointer">
+                 Live now
+                </a>
                 <Link to="/options-trading-masterclass" className="btn btn-outline">
                   View Masterclass
                 </Link>

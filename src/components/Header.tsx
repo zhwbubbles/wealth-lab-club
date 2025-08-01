@@ -124,7 +124,7 @@ export default function Header({ mobileMenuOpen, toggleMenu }: HeaderProps) {
               <div className="flex-1 text-center">
                 <p className="text-white font-semibold text-sm md:text-base">
                   🎉 Get 85% off on our courses! 
-                  <span className="ml-2 text-white/90">Offer valid till 30th August</span>
+                  <span className="ml-2 text-white/90">Offer valid till 6th August</span>
                 </p>
               </div>
               <button

@@ -1,4 +1,3 @@
-import   { Link } from 'react-router-dom';
 import { CreditCard, BarChart } from 'lucide-react';
 
 type Course = {
@@ -47,6 +46,38 @@ export default function CoursePreview() {
       ],
       status: 'available',
       whopLink: "https://whop.com/trading-technical-analysis"
+    },
+    {
+      id: 3,
+      slug: 'option-trading-analysis',
+      title: "Option Trading 101",
+      description: "Learn the basics of options trading, for free!",
+      icon: <BarChart className="h-8 w-8" />,
+      features: [
+        "Options basics for crypto: calls, puts, strikes, expiry",
+        "Why options matter in crypto and when to use them",
+        "Live market streams and strategy sessions",
+        "Interactive Q&A and community learning with a pro derivatives trader",
+        "Starter toolkit to build your plan and grow your skills"
+      ],
+      status: 'available',
+      whopLink: "https://whop.com/options-trading-for-beginners/"
+    },
+    {
+      id: 4,
+     slug: 'option-trading-masterclass-analysis',
+      title: "Option Trading Masterclass",
+      description: "Become an options trading expert from scratch.",
+      icon: <BarChart className="h-8 w-8" />,
+      features: [
+        "Spreads and multi-leg strategies",
+        "Greeks and practical risk control",
+        "Volatility and IV analysis for entries and exits",
+        "Advanced tactics: straddles and strangles",
+        "Ongoing support with daily newsletter and private Discord"
+      ],
+      status: 'available',
+      whopLink: " https://whop.com/options-trading-wl/"
     }
     
   ];

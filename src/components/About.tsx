@@ -98,7 +98,7 @@ export default function About() {
             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/64b2fe37-f235-4b3f-7fdb-ef8c049b3500/public" 
+                  src="https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/69de3075-b188-4066-3b49-11fd70180a00/public" 
                   alt="Eric Okenchukwu" 
                   className="w-full h-full object-cover object-center"
                 />

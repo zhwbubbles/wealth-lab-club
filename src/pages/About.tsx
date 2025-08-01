@@ -11,7 +11,7 @@ export default function About() {
     {
       name: "Eric Okenchukwu",
       title: "Futures Trading and Technical Analysis",
-      image: "https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/64b2fe37-f235-4b3f-7fdb-ef8c049b3500/public",
+      image: "https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/69de3075-b188-4066-3b49-11fd70180a00/public",
       description: "With a detailed study and focus on price action and chart patterns across various asset classes, Eric has developed effective, real-world trading strategies that deliver results."
     },
     {

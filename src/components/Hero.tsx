@@ -46,7 +46,7 @@ export default function Hero() {
         
         <div className="mt-16 md:mt-24 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
           <div className="p-4 bg-primary-light/80 rounded-lg backdrop-blur-sm border border-gray-800">
-            <div className="text-4xl font-bold mb-1 gradient-text">100+</div>
+            <div className="text-4xl font-bold mb-1 gradient-text">200+</div>
             <div className="text-sm opacity-80">Students Enrolled</div>
           </div>
           <div className="p-4 bg-primary-light/80 rounded-lg backdrop-blur-sm border border-gray-800">

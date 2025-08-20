@@ -117,7 +117,7 @@ export default function Header({ mobileMenuOpen, toggleMenu }: HeaderProps) {
       </header>
 
       {/* Promotional Banner */}
-      {bannerVisible && (
+      {/* {bannerVisible && (
         <div className="fixed w-full top-16 bg-gradient-to-r from-blue-500 to-green-400 z-40 py-3">
           <div className="container">
             <div className="flex items-center justify-between">
@@ -137,7 +137,7 @@ export default function Header({ mobileMenuOpen, toggleMenu }: HeaderProps) {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 }

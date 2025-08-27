@@ -117,14 +117,14 @@ export default function Header({ mobileMenuOpen, toggleMenu }: HeaderProps) {
       </header>
 
       {/* Promotional Banner */}
-      {/* {bannerVisible && (
+      {bannerVisible && (
         <div className="fixed w-full top-16 bg-gradient-to-r from-blue-500 to-green-400 z-40 py-3">
           <div className="container">
             <div className="flex items-center justify-between">
               <div className="flex-1 text-center">
                 <p className="text-white font-semibold text-sm md:text-base">
-                  🎉 Get 85% off on our courses! 
-                  <span className="ml-2 text-white/90">Offer valid till 6th August</span>
+                  🎉 Get 80% off on our courses! 
+                  <span className="ml-2 text-white/90">Offer valid till 4th September</span>
                 </p>
               </div>
               <button
@@ -137,7 +137,7 @@ export default function Header({ mobileMenuOpen, toggleMenu }: HeaderProps) {
             </div>
           </div>
         </div>
-      )} */}
+      )}
     </>
   );
 }

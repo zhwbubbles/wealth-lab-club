@@ -453,17 +453,17 @@ export default function FuturesTrading() {
                     <span className="text-gray-300 text-sm">Until August 30th, 2025</span>
                   </div>
                   
-                  <h3 className="text-2xl font-bold mb-3 text-white">85% OFF Special Offer</h3>
-                  <p className="text-gray-300 mb-6">
+                  <h3 className="text-2xl font-bold mb-3 text-white">80% OFF Special Offer</h3>
+                  {/* <p className="text-gray-300 mb-6">
                     Use our exclusive coupon code during checkout to get an incredible 50% discount on your annual subscription.
-                  </p>
+                  </p> */}
                   
                   <div className="bg-primary/50 border border-gray-700 rounded-lg p-4 mb-6 backdrop-blur-sm">
                     <div className="flex flex-col md:flex-row md:items-center justify-between">
                       <div className="mb-3 md:mb-0">
                         <span className="text-xs uppercase text-gray-400">Coupon Code:</span>
                         <div className="font-mono text-xl font-bold text-white tracking-wider">
-                          BULLRUN
+                          SUMMER
                         </div>
                       </div>
                       <button 
@@ -481,11 +481,11 @@ export default function FuturesTrading() {
                   <div className="space-y-3 mb-6">
                     <div className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />
-                      <span className="text-gray-300">Save $254.00 on your subscription</span>
+                      <span className="text-gray-300">Save $239.18 on your subscription</span>
                     </div>
                     <div className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />
-                      <span className="text-gray-300">Just $44.98 for a full year access</span>
+                      <span className="text-gray-300">Just $59.80 for a full year access</span>
                     </div>
                     <div className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gradient-mid mr-3 mt-0.5" />
